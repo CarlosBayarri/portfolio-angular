@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     PortfolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
